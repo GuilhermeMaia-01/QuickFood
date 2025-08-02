@@ -1,0 +1,30 @@
+@import url('./global.css');
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    padding: 49px 0px;
+}
+
+.nav-header ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    text-decoration: none;
+}
+
+.nav-header li {
+    color: rgba(0, 0, 1, 0.6);
+}
+
+.nav-header ul a li span {
+    color: var(--color-primary);
+}
+
+.nav-header a {
+    text-decoration: none;
+}

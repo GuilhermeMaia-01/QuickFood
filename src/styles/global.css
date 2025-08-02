@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Caminho/Gilroy.ttf') format('ttf');         
+}
+
+body {
+    font-family: 'Gilroy', sans-serif; 
+}
+
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-grey: #000000;
+    --color-primary: #00A000;
+    --color-black: #000001;
+    --color-grey2: #999999;
+    --color-white: #FFFFFF;
+    --color-bg-overlay: #FAFAFA; 
+
+    --font: 'Gilroy';
+    --font-headline-1-size: 60px;
+    
+    --font-headline-2-size: 48px;
+
+    --font-headline-3-size: 28px;
+    
+    --font-body-1-size: 18px;
+
+    --font-button-size: 18px;
+}
